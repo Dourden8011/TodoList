@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<meta charset="utf-8">
+<head>
+	<title>ToDo list</title>
+	<link rel="stylesheet" type="text/css" href="styles/todo.css">
+</head>
+<body>
+	<div class="bar">
+		<div class="header-container">
+			<div class="header">MyTodoList</div>
+		</div>
+	</div>
+	<div class="tasks_lists">
+	<div class="main-container">
+		<div class="headpannel">
+			<h1></h1>
+			<div class="dropdown-menu"><img src="icons/sort_order.png" class="sortLi">
+				<ul class="dropdown">
+				<li class="normal">Normal</li>
+				<li class="alphabetical">Alphabetical</li>
+				<li class="random">Random</li>
+			</ul>
+			</div>
+		</div>
+			<div class="todotitle">
+				<span class="title-text">To do :</span>
+				<div  class="progress-bar active">
+					<div class="line active"></div>
+				</div>
+			</div>
+			<ul class="my-todos">
+			  <!-- <li class="todo" draggable="true">
+					<input class="check-todo" type="checkbox">
+					<span class="todoitem">Wash the dishes</span>
+					<img src="C:\Users\79995\Desktop\Разработчик\тудуха\delete.gif" class="delete">
+				</li> -->
+			</ul>
+			<p class="notodos">No items.  Why not add one below.</p>
+			<input class="input-todo" type="text" placeholder="Type and press Enter to add">
+			<div class="todotitle">
+				<span class="title-text">Done :</span>
+				<div class="progress-bar complete">
+					<div class="line complete"></div>
+				</div>
+			</div>
+			<ul class="done-todos">
+			</ul>
+			<p class="nodonetodos">No done items.</p>
+			<div class="trash-container">
+				<img src="icons/purge.png" class="clear">
+			</div>
+		</div>
+		<div class="tasks-lists">
+			<h3>Lists
+				<img class='addlist' src="icons/addlist.png">
+				<img class='adddivider' src="icons/adddivider.png">
+			</h3>
+			<ul class="lists">
+				<!-- <li id="myList_0" class="todaytasks current">
+					<span class="category_todo">Today`s Tasks</span>
+					<img src="C:\Users\79995\Desktop\Разработчик\тудуха\delete.gif" class="delete">
+				</li> -->
+			</ul>
+		</div>
+	</div>
+<script src="lib/2.1.js"></script>
+</body>
+</html>
